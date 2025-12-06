@@ -1,113 +1,108 @@
-🛰️ Zentinel — Sistema Inteligente de Monitoreo Urbano
+#🛰️ Zentinel — Sistema Inteligente de Monitoreo Urbano
 
 Zentinel es una plataforma moderna diseñada para analizar, mapear y gestionar la actividad de pandillas, incidentes y zonas de riesgo dentro de una ciudad.
-Combina PHP + MySQL + Google Maps + Telegram Bot para ofrecer una herramienta visual, rápida y profesional para autoridades, analistas y consultores.
+Combina PHP + MySQL + Google Maps + Telegram Bot para ofrecer una herramienta visual, rápida y profesional.
 
-✨ Características Principales
-🗺️ Mapa Interactivo Profesional
+##🗺️ Características Principales
 
-Visualización en tiempo real de pandillas registradas.
+-🌐 Mapa interactivo profesional con marcadores avanzados.
 
-Marcadores con información avanzada: peligrosidad, integrantes, zona y ubicación.
+-🔥 Mapa de calor para visualizar concentración de incidentes.
 
-🟡 Mapa de calor para visualizar concentración de incidentes.
+-🎯 Filtros por zona (Norte, Sur, Oriente, Poniente y Centro).
 
-🎯 Filtros por zona (Norte, Sur, Oriente, Poniente y Centro).
+-🧭 Autocompletado estilo Google Maps para seleccionar ubicaciones.
 
-📍 Autocompletado estilo Google Maps para seleccionar ubicaciones.
+-👁️ Visualización en tiempo real de pandillas registradas.
 
-Identificación rápida de patrones delictivos.
+-📌 Marcadores con datos clave: peligrosidad, integrantes, zona y ubicación.
 
-🧩 Gestión Completa de Pandillas
+##🧩 Gestión de Pandillas
 
-Registro, edición y eliminación.
+-📝 Registro, edición y eliminación.
 
-Campo abierto de Líder, editable directamente.
+-👤 Campo abierto de Líder, editable directamente.
 
-Descripción, zona, integrantes, horario de reunión.
+-📋 Descripción, zona, integrantes, edades y horario de reunión.
 
-Delitos asociados y faltas cometidas.
+-🚨 Delitos asociados y faltas cometidas.
 
-Redes sociales / alias.
+-🌐 Redes sociales / alias.
 
-Ubicación exacta con marcador dinámico.
+-📍 Ubicación exacta mediante mapa dinámico con pin arrastrable.
 
-🧭 Panel Administrativo
+##📊 Panel Administrativo
 
-Acceso restringido según tipo de usuario (Admin / Consultor).
+-🔐 Control de acceso por tipo de usuario (Admin / Consultor).
 
-Dashboard con estadísticas de:
+-📈 Dashboard con estadísticas de:
 
-Total de pandillas
+--Total de pandillas
 
-Total de integrantes
+--Total de integrantes
 
-Total de eventos registrados
+--Total de eventos registrados
 
-Navegación moderna y diseño oscuro profesional.
+-🌙 Diseño moderno en modo oscuro.
 
-🔥 Eventos y Reportes
+##🚨 Gestión de Eventos
 
-Registro de incidentes: riñas, delitos, faltas.
+-Registro de riñas, delitos y faltas.
 
-Información detallada: zona, fecha, hora, descripción, coordenadas.
+-Información detallada: zona, fecha, hora, descripción.
 
-Marcadores con popups estilizados.
+-Marcadores en Google Maps con popups estilizados.
 
-Vista compatible con mapa de calor.
+-Compatible con vista de mapa de calor.
 
-🤖 Bot Oficial de Telegram
+##🤖 Bot Oficial de Telegram
 
-El bot de Zentinel permite consultar información del sistema desde Telegram:
+El bot permite consultar información del sistema desde cualquier lugar.
 
-🟦 Comandos disponibles
+Comandos disponibles
 
-/start — Muestra menú principal.
+-/start — Menú principal
 
-/login — Autenticación guiada con correo y contraseña.
+-/login — Autenticación guiada
 
-/consultar_zona — Devuelve pandillas registradas por zona.
+-/consultar_zona — Información por zona
 
-/consultar_eventos — Lista rápida de incidentes recientes.
+-/consultar_eventos — Eventos recientes
 
-(Futuros) /consultar_folio, notificaciones automáticas, alertas por zona.
+##Funciones
 
-💬 Funciones clave
+-Respuestas en tiempo real
 
-Responde en tiempo real.
+-Webhooks rápidos
 
-Utiliza Webhooks para máxima velocidad.
+-Basado en usuarios reales del sistema
 
-Seguridad basada en usuarios registrados del sistema.
+##🧠 Tecnologías Utilizadas
 
-Compatible con servidor local o en producción.
+-PHP 8+
 
-🧠 Tecnologías Utilizadas
+-MySQL
 
-PHP 8+
+-Google Maps API
 
-MySQL
+-Bootstrap 5
 
-JavaScript (Google Maps API)
+-Telegram Bot API
 
-Bootstrap 5
+##🎯 Objetivo
 
-Telegram Bot API
+-Zentinel facilita la toma de decisiones mediante:
 
-JSON + Webhooks
+-Monitoreo urbano inteligente
 
-🎯 Objetivo del Sistema
+-Organización clara de información crítica
 
-Zentinel busca facilitar la toma de decisiones mediante:
+-Herramientas visuales y remotas
 
-Identificación visual de zonas de riesgo.
+-Automatización de reportes
 
-Organización de datos urbanos.
+##👤 Desarrollado por
 
-Consulta remota vía bot.
-
-Control total de la información desde un panel elegante y moderno.
-
-👤 Desarrollado por:
-
-Braulio Martínez (Kai) — 2025
+Braulio Martínez  
+Hector Sanjuanero
+2025
